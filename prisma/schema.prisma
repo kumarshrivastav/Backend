@@ -5,8 +5,8 @@
 // Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
 
 generator client {
-  provider = "prisma-client-js",
-  previewFeatures:["fullTextSearch"]  // for searching the records based on string passed by the clients
+  provider = "prisma-client-js"
+  previewFeatures=["fullTextSearch"]  // for searching the records based on string passed by the clients
 }
 
 datasource db {
